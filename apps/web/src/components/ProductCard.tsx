@@ -24,49 +24,76 @@ interface ProductCardProps {
 
 const FAVORITES_KEY = 'imperra-favorites'
 
-// Utility functions for localStorage
-const getFavoritesFromStorage = (): string[] => {
-  if (typeof window === 'undefined') return []
+// Simulating database/API calls with localStorage
+// In a real app, these would be API calls to your backend
+const checkFavoriteStatus = async (productId: string): Promise<boolean> => {
+  // Simulate API call delay
+  await new Promise((resolve) => setTimeout(resolve, 0))
+
+  if (typeof window === 'undefined') return false
   try {
     const stored = localStorage.getItem(FAVORITES_KEY)
-    return stored ? JSON.parse(stored) : []
+    const favorites: string[] = stored ? JSON.parse(stored) : []
+    return favorites.includes(productId)
   } catch {
-    return []
-  }
-}
-
-const saveFavoritesToStorage = (favorites: string[]) => {
-  if (typeof window === 'undefined') return
-  try {
-    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites))
-  } catch (error) {
-    console.error('Failed to save favorites to localStorage:', error)
-  }
-}
-
-const toggleFavoriteInStorage = (productId: string): boolean => {
-  const favorites = getFavoritesFromStorage()
-  const index = favorites.indexOf(productId)
-
-  if (index > -1) {
-    favorites.splice(index, 1)
-    saveFavoritesToStorage(favorites)
     return false
-  } else {
-    favorites.push(productId)
-    saveFavoritesToStorage(favorites)
-    return true
+  }
+}
+
+const toggleFavoriteInDB = async (productId: string): Promise<boolean> => {
+  // Simulate API call delay
+  await new Promise((resolve) => setTimeout(resolve, 0))
+
+  if (typeof window === 'undefined') return false
+
+  try {
+    const stored = localStorage.getItem(FAVORITES_KEY)
+    const favorites: string[] = stored ? JSON.parse(stored) : []
+    const index = favorites.indexOf(productId)
+
+    if (index > -1) {
+      favorites.splice(index, 1)
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites))
+      return false
+    } else {
+      favorites.push(productId)
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites))
+      return true
+    }
+  } catch (error) {
+    console.error('Failed to save favorite to database:', error)
+    return false
   }
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
   const [isFavorited, setIsFavorited] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
-  // Load favorite status from localStorage on mount
   useEffect(() => {
-    const favorites = getFavoritesFromStorage()
-    setIsFavorited(favorites.includes(product.id))
-  }, [product.id])
+    let cancelled = false
+
+    const fetchFavoriteStatus = async () => {
+      setIsLoading(true)
+      // Simulate API call to check if product is favorited
+      const favorited = await checkFavoriteStatus(product.id)
+
+      if (!cancelled) {
+        setIsFavorited(favorited)
+        setIsLoading(false)
+      }
+    }
+
+    fetchFavoriteStatus()
+
+    // Cleanup: prevent state update if component unmounts during async operation
+    return () => {
+      cancelled = true
+    }
+    // Intentionally empty deps to simulate "fetch once on mount" pattern
+    // In real-world, you might do this, but you MUST use stable keys (product.id)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('en-US', {
@@ -76,11 +103,23 @@ export default function ProductCard({ product }: ProductCardProps) {
     }).format(price)
   }
 
-  const handleFavoriteClick = (e: React.MouseEvent) => {
+  const handleFavoriteClick = async (e: React.MouseEvent) => {
     e.preventDefault()
     e.stopPropagation()
-    const newFavoriteStatus = toggleFavoriteInStorage(product.id)
-    setIsFavorited(newFavoriteStatus)
+
+    // REAL-WORLD PATTERN: Optimistic update + API call
+    const previousState = isFavorited
+    setIsFavorited(!previousState) // Optimistic update
+
+    try {
+      // Simulate API call to save/remove favorite in database
+      const newStatus = await toggleFavoriteInDB(product.id)
+      setIsFavorited(newStatus)
+    } catch (error) {
+      // Rollback on error
+      setIsFavorited(previousState)
+      console.error('Failed to update favorite:', error)
+    }
   }
 
   return (
@@ -98,25 +137,33 @@ export default function ProductCard({ product }: ProductCardProps) {
               {product.discount}%
             </div>
           )}
-          {/* Favorite Button - BUG DEMO: This state will be preserved incorrectly when using index as key */}
+          {/* Favorite Button */}
           <button
             onClick={handleFavoriteClick}
-            className="absolute top-2 right-2 p-2 bg-white rounded-full shadow-md hover:bg-gray-50 transition-colors"
+            disabled={isLoading}
+            className="absolute top-2 right-2 p-2 bg-white rounded-full shadow-md hover:bg-gray-50 transition-colors disabled:opacity-50"
             aria-label={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
           >
-            <svg
-              className={`w-5 h-5 transition-colors ${
-                isFavorited ? 'text-red-500 fill-current' : 'text-gray-400'
-              }`}
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                clipRule="evenodd"
-              />
-            </svg>
+            {isLoading ? (
+              <svg className="w-5 h-5 text-gray-400 animate-spin" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+              </svg>
+            ) : (
+              <svg
+                className={`w-5 h-5 transition-colors ${
+                  isFavorited ? 'text-red-500 fill-current' : 'text-gray-400'
+                }`}
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            )}
           </button>
         </div>
 
