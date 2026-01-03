@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Electronics",
+    "icon": "📱",
+    "subcategories": ["Smartphones", "Laptops", "Cameras", "Audio", "TV & Audio"]
+  },
+  {
+    "id": "2",
+    "name": "Fashion",
+    "icon": "👕",
+    "subcategories": ["Clothing", "Shoes", "Accessories", "Bags", "Watches"]
+  },
+  {
+    "id": "3",
+    "name": "Home & Living",
+    "icon": "🏠",
+    "subcategories": ["Furniture", "Appliances", "Decor", "Kitchen", "Bedding"]
+  }
+]

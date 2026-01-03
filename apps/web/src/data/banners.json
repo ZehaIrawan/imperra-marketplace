@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1",
+    "title": "Flash Sale - Up to 70% Off",
+    "subtitle": "Valid until end of month",
+    "image": "https://images.unsplash.com/photo-1607082349566-187342175e2f?w=1200&h=400&fit=crop",
+    "link": "/flash-sale"
+  },
+  {
+    "id": "2",
+    "title": "New Arrival - Latest Collection",
+    "subtitle": "Discover the latest products from your favorite brands",
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=400&fit=crop",
+    "link": "/new-arrival"
+  },
+  {
+    "id": "3",
+    "title": "Tech Week - Latest Gadgets",
+    "subtitle": "Smartphones, laptops, and gadgets at special prices",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&h=400&fit=crop",
+    "link": "/tech-week"
+  },
+  {
+    "id": "4",
+    "title": "Fashion Sale - Up to 50% Off",
+    "subtitle": "Latest fashion collection with attractive discounts",
+    "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=1200&h=400&fit=crop",
+    "link": "/fashion-sale"
+  }
+]
+

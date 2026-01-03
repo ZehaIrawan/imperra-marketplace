@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "1",
+    "name": "iPhone 15 Pro Max 256GB - Titanium Blue",
+    "price": 18999000,
+    "originalPrice": 21999000,
+    "discount": 14,
+    "rating": 4.8,
+    "reviewCount": 5234,
+    "sold": 1234,
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop&sig=0",
+    "images": [
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop&sig=0",
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&h=500&fit=crop&sig=1",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop&sig=2"
+    ],
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "seller": {
+      "name": "TechStore Official",
+      "rating": 4.9,
+      "location": "Jakarta Pusat"
+    },
+    "description": "iPhone 15 Pro Max with A17 Pro chip, 48MP camera, and long-lasting battery. Official 1 year warranty.",
+    "stock": 45,
+    "condition": "New",
+    "weight": 0.5,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-11-04T22:57:57.428Z"
+  },
+  {
+    "id": "2",
+    "name": "Samsung Galaxy S24 Ultra 512GB - Phantom Black",
+    "price": 17999000,
+    "originalPrice": 19999000,
+    "discount": 10,
+    "rating": 4.7,
+    "reviewCount": 3421,
+    "sold": 892,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500&h=500&fit=crop&sig=1",
+    "images": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500&h=500&fit=crop&sig=1",
+      "https://images.unsplash.com/photo-1561154464-82e9adf32750?w=500&h=500&fit=crop&sig=2",
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop&sig=3"
+    ],
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "seller": {
+      "name": "Samsung Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Samsung Galaxy S24 Ultra with S Pen, 200MP camera, and 6.8 inch Dynamic AMOLED 2X display.",
+    "stock": 32,
+    "condition": "New",
+    "weight": 0.6,
+    "warranty": "2 Years",
+    "featured": true,
+    "dateAdded": "2025-10-30T22:57:57.428Z"
+  },
+  {
+    "id": "3",
+    "name": "MacBook Pro 14 inch M3 Pro 1TB",
+    "price": 34999000,
+    "originalPrice": 37999000,
+    "discount": 8,
+    "rating": 4.9,
+    "reviewCount": 2156,
+    "sold": 456,
+    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&h=500&fit=crop&sig=2",
+    "images": [
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&h=500&fit=crop&sig=2",
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500&h=500&fit=crop&sig=3",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop&sig=4"
+    ],
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "seller": {
+      "name": "Apple Store Indonesia",
+      "rating": 4.9,
+      "location": "Jakarta Pusat"
+    },
+    "description": "MacBook Pro 14 inch with M3 Pro chip, 18GB RAM, and 1TB storage. Perfect for professionals.",
+    "stock": 18,
+    "condition": "New",
+    "weight": 1.6,
+    "warranty": "1 Year",
+    "featured": false,
+    "dateAdded": "2025-10-25T22:57:57.428Z"
+  },
+  {
+    "id": "4",
+    "name": "Dell XPS 15 Laptop - Intel i7, 16GB RAM, 512GB SSD",
+    "price": 24999000,
+    "originalPrice": 27999000,
+    "discount": 11,
+    "rating": 4.6,
+    "reviewCount": 1890,
+    "sold": 567,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop&sig=3",
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop&sig=3",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&h=500&fit=crop&sig=4",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop&sig=5"
+    ],
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "seller": {
+      "name": "Dell Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Utara"
+    },
+    "description": "Premium laptop with Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for work and gaming.",
+    "stock": 25,
+    "condition": "New",
+    "weight": 1.8,
+    "warranty": "2 Years",
+    "featured": false,
+    "dateAdded": "2025-10-20T22:57:57.428Z"
+  },
+  {
+    "id": "5",
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "price": 5499000,
+    "originalPrice": 5999000,
+    "discount": 8,
+    "rating": 4.8,
+    "reviewCount": 4567,
+    "sold": 2345,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop&sig=4",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop&sig=4",
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500&h=500&fit=crop&sig=5",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop&sig=6"
+    ],
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "seller": {
+      "name": "Sony Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Utara"
+    },
+    "description": "Premium noise cancelling headphones with Hi-Res Audio quality and 30 hour battery life.",
+    "stock": 67,
+    "condition": "New",
+    "weight": 0.3,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-10-15T22:57:57.428Z"
+  },
+  {
+    "id": "6",
+    "name": "Canon EOS R6 Mark II Camera Body",
+    "price": 34999000,
+    "originalPrice": 37999000,
+    "discount": 8,
+    "rating": 4.9,
+    "reviewCount": 1234,
+    "sold": 567,
+    "image": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=500&h=500&fit=crop&sig=5",
+    "images": [
+      "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=500&h=500&fit=crop&sig=5",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop&sig=6",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&h=500&fit=crop&sig=7"
+    ],
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "seller": {
+      "name": "Canon Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Full-frame mirrorless camera with 24.2MP, 4K video, and 5-axis image stabilization.",
+    "stock": 12,
+    "condition": "New",
+    "weight": 0.7,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-10-10T22:57:57.428Z"
+  },
+  {
+    "id": "7",
+    "name": "Samsung 55 inch QLED 4K Smart TV",
+    "price": 12999000,
+    "originalPrice": 14999000,
+    "discount": 13,
+    "rating": 4.6,
+    "reviewCount": 2345,
+    "sold": 1234,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&h=500&fit=crop&sig=6",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&h=500&fit=crop&sig=6",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=500&fit=crop&sig=7",
+      "https://images.unsplash.com/photo-1549497538-303791108f95?w=500&h=500&fit=crop&sig=8"
+    ],
+    "category": "Electronics",
+    "subcategory": "TV & Audio",
+    "seller": {
+      "name": "Samsung Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Selatan"
+    },
+    "description": "QLED 4K Smart TV with Quantum Dot Technology, HDR10+, and Tizen OS.",
+    "stock": 34,
+    "condition": "New",
+    "weight": 18.5,
+    "warranty": "2 Years",
+    "featured": false,
+    "dateAdded": "2025-10-05T22:57:57.428Z"
+  },
+  {
+    "id": "8",
+    "name": "Nike Air Max 90 - White Black",
+    "price": 1899000,
+    "originalPrice": 2199000,
+    "discount": 14,
+    "rating": 4.6,
+    "reviewCount": 8923,
+    "sold": 5678,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop&sig=7",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop&sig=7",
+      "https://images.unsplash.com/photo-1582418702059-97ebaf8e8b2f?w=500&h=500&fit=crop&sig=8",
+      "https://images.unsplash.com/photo-1567423668062-96576f3fa80a?w=500&h=500&fit=crop&sig=9"
+    ],
+    "category": "Fashion",
+    "subcategory": "Shoes",
+    "seller": {
+      "name": "Nike Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Barat"
+    },
+    "description": "Original Nike Air Max 90 shoes with Air Max technology for maximum comfort.",
+    "stock": 156,
+    "condition": "New",
+    "weight": 0.8,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-09-30T22:57:57.428Z"
+  },
+  {
+    "id": "9",
+    "name": "Adidas Ultraboost 22 Running Shoes",
+    "price": 2199000,
+    "originalPrice": 2499000,
+    "discount": 12,
+    "rating": 4.7,
+    "reviewCount": 6789,
+    "sold": 4567,
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=500&fit=crop&sig=8",
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=500&fit=crop&sig=8",
+      "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=500&h=500&fit=crop&sig=9",
+      "https://images.unsplash.com/photo-1578922751762-35b845b6e036?w=500&h=500&fit=crop&sig=10"
+    ],
+    "category": "Fashion",
+    "subcategory": "Shoes",
+    "seller": {
+      "name": "Adidas Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Running shoes with Boost technology for maximum responsiveness and comfort.",
+    "stock": 189,
+    "condition": "New",
+    "weight": 0.7,
+    "warranty": "Official Warranty",
+    "featured": true,
+    "dateAdded": "2025-09-25T22:57:57.428Z"
+  },
+  {
+    "id": "10",
+    "name": "Uniqlo Ultra Light Down Jacket",
+    "price": 799000,
+    "originalPrice": 999000,
+    "discount": 20,
+    "rating": 4.5,
+    "reviewCount": 12345,
+    "sold": 8901,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1582418702059-97ebaf8e8b2f?w=500&h=500&fit=crop"
+    ],
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "seller": {
+      "name": "Uniqlo Official",
+      "rating": 4.6,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Lightweight and warm down jacket, perfect for cold weather. Available in various sizes and colors.",
+    "stock": 234,
+    "condition": "New",
+    "weight": 0.4,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-09-20T22:57:57.428Z"
+  },
+  {
+    "id": "11",
+    "name": "Zara Oversized Blazer - Black",
+    "price": 1299000,
+    "originalPrice": 1599000,
+    "discount": 19,
+    "rating": 4.5,
+    "reviewCount": 4567,
+    "sold": 3456,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop&sig=10",
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop&sig=10",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop&sig=11",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop&sig=12"
+    ],
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "seller": {
+      "name": "Zara Official",
+      "rating": 4.6,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Oversized blazer with modern cut and high-quality materials.",
+    "stock": 78,
+    "condition": "New",
+    "weight": 0.5,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-09-15T22:57:57.428Z"
+  },
+  {
+    "id": "12",
+    "name": "Levi's 501 Original Fit Jeans",
+    "price": 1299000,
+    "originalPrice": 1499000,
+    "discount": 13,
+    "rating": 4.6,
+    "reviewCount": 7890,
+    "sold": 5234,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop&sig=11",
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop&sig=11",
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500&h=500&fit=crop&sig=12",
+      "https://images.unsplash.com/photo-1544966506-3d63d8c3e0b5?w=500&h=500&fit=crop&sig=13"
+    ],
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "seller": {
+      "name": "Levi's Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Barat"
+    },
+    "description": "Classic 501 Original Fit jeans with button fly and straight leg. Timeless style and comfort.",
+    "stock": 145,
+    "condition": "New",
+    "weight": 0.6,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-09-10T22:57:57.428Z"
+  },
+  {
+    "id": "13",
+    "name": "Dyson V15 Detect Vacuum Cleaner",
+    "price": 8999000,
+    "originalPrice": 9999000,
+    "discount": 10,
+    "rating": 4.7,
+    "reviewCount": 3456,
+    "sold": 1234,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&h=500&fit=crop&sig=12",
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&h=500&fit=crop&sig=12",
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop&sig=13",
+      "https://images.unsplash.com/photo-1560472355-e5c5b5e5e5e5?w=500&h=500&fit=crop&sig=14"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Appliances",
+    "seller": {
+      "name": "Dyson Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Cordless vacuum cleaner with laser technology for better dust detection.",
+    "stock": 28,
+    "condition": "New",
+    "weight": 2.8,
+    "warranty": "2 Years",
+    "featured": true,
+    "dateAdded": "2025-12-04T22:57:57.428Z"
+  },
+  {
+    "id": "14",
+    "name": "IKEA MALM Bed Frame - Queen Size",
+    "price": 2999000,
+    "originalPrice": 3499000,
+    "discount": 14,
+    "rating": 4.4,
+    "reviewCount": 5678,
+    "sold": 3456,
+    "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=500&h=500&fit=crop&sig=13",
+    "images": [
+      "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=500&h=500&fit=crop&sig=13",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop&sig=14",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop&sig=15"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "seller": {
+      "name": "IKEA Indonesia",
+      "rating": 4.5,
+      "location": "Jakarta Barat"
+    },
+    "description": "Minimalist bed frame with storage drawers. Queen size (160x200 cm).",
+    "stock": 45,
+    "condition": "New",
+    "weight": 35,
+    "warranty": "10 Years",
+    "featured": false,
+    "dateAdded": "2025-12-06T22:57:57.428Z"
+  },
+  {
+    "id": "15",
+    "name": "IKEA EKTORP Sofa - Beige",
+    "price": 4999000,
+    "originalPrice": 5999000,
+    "discount": 17,
+    "rating": 4.5,
+    "reviewCount": 3456,
+    "sold": 2345,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&h=500&fit=crop&sig=14",
+    "images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&h=500&fit=crop&sig=14",
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500&h=500&fit=crop&sig=15",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop&sig=16"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "seller": {
+      "name": "IKEA Indonesia",
+      "rating": 4.5,
+      "location": "Jakarta Barat"
+    },
+    "description": "Comfortable 3-seat sofa with removable covers. Perfect for living room. Available in multiple colors.",
+    "stock": 32,
+    "condition": "New",
+    "weight": 45,
+    "warranty": "10 Years",
+    "featured": false,
+    "dateAdded": "2025-12-08T22:57:57.428Z"
+  },
+  {
+    "id": "16",
+    "name": "KitchenAid Stand Mixer - Red",
+    "price": 8999000,
+    "originalPrice": 9999000,
+    "discount": 10,
+    "rating": 4.8,
+    "reviewCount": 2345,
+    "sold": 1234,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&h=500&fit=crop&sig=15",
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&h=500&fit=crop&sig=15",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop&sig=16",
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500&h=500&fit=crop&sig=17"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Kitchen",
+    "seller": {
+      "name": "KitchenAid Official",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Professional stand mixer with 5.5 quart bowl. Perfect for baking enthusiasts.",
+    "stock": 18,
+    "condition": "New",
+    "weight": 12.5,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-12-10T22:57:57.428Z"
+  },
+  {
+    "id": "17",
+    "name": "Dyson Air Purifier - Cool & Heat",
+    "price": 7999000,
+    "originalPrice": 8999000,
+    "discount": 11,
+    "rating": 4.6,
+    "reviewCount": 1890,
+    "sold": 890,
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Appliances",
+    "seller": {
+      "name": "Dyson Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Air purifier with cooling and heating functions. Removes 99.97% of allergens and pollutants.",
+    "stock": 22,
+    "condition": "New",
+    "weight": 5.2,
+    "warranty": "2 Years",
+    "featured": false,
+    "dateAdded": "2025-12-12T22:57:57.428Z"
+  },
+  {
+    "id": "18",
+    "name": "West Elm Modern Coffee Table",
+    "price": 3999000,
+    "originalPrice": 4499000,
+    "discount": 11,
+    "rating": 4.4,
+    "reviewCount": 1234,
+    "sold": 678,
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500&h=500&fit=crop&sig=17",
+    "images": [
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500&h=500&fit=crop&sig=17",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop&sig=18",
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop&sig=19"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "seller": {
+      "name": "West Elm Store",
+      "rating": 4.5,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Sleek modern coffee table with glass top and metal legs. Perfect centerpiece for your living room.",
+    "stock": 15,
+    "condition": "New",
+    "weight": 18,
+    "warranty": "5 Years",
+    "featured": false,
+    "dateAdded": "2025-12-14T22:57:57.428Z"
+  },
+  {
+    "id": "19",
+    "name": "iPad Pro 12.9 inch M2 - Space Gray",
+    "price": 19999000,
+    "originalPrice": 22999000,
+    "discount": 13,
+    "rating": 4.8,
+    "reviewCount": 3456,
+    "sold": 1234,
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&h=500&fit=crop&sig=18",
+    "images": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&h=500&fit=crop&sig=18",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop&sig=19",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop&sig=20"
+    ],
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "seller": {
+      "name": "Apple Store Indonesia",
+      "rating": 4.9,
+      "location": "Jakarta Pusat"
+    },
+    "description": "iPad Pro with M2 chip, 12.9 inch Liquid Retina XDR display, and Apple Pencil support.",
+    "stock": 28,
+    "condition": "New",
+    "weight": 0.7,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-12-14T23:00:52.899Z"
+  },
+  {
+    "id": "20",
+    "name": "Xiaomi 13 Pro 256GB - Blue",
+    "price": 12999000,
+    "originalPrice": 14999000,
+    "discount": 13,
+    "rating": 4.6,
+    "reviewCount": 2345,
+    "sold": 890,
+    "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500&h=500&fit=crop&sig=19",
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500&h=500&fit=crop&sig=19",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop&sig=20",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop&sig=21"
+    ],
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "seller": {
+      "name": "Xiaomi Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Utara"
+    },
+    "description": "Flagship smartphone with Snapdragon 8 Gen 2, 50MP triple camera, and 120W fast charging.",
+    "stock": 42,
+    "condition": "New",
+    "weight": 0.6,
+    "warranty": "1 Year",
+    "featured": false,
+    "dateAdded": "2025-12-16T23:00:52.900Z"
+  },
+  {
+    "id": "21",
+    "name": "HP Spectre x360 14 - Intel i7",
+    "price": 22999000,
+    "originalPrice": 25999000,
+    "discount": 12,
+    "rating": 4.5,
+    "reviewCount": 1890,
+    "sold": 567,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop&sig=20",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop&sig=20",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&h=500&fit=crop&sig=21",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&h=500&fit=crop&sig=22"
+    ],
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "seller": {
+      "name": "HP Official Store",
+      "rating": 4.6,
+      "location": "Jakarta Selatan"
+    },
+    "description": "2-in-1 convertible laptop with 360-degree hinge, OLED display, and premium design.",
+    "stock": 22,
+    "condition": "New",
+    "weight": 1.4,
+    "warranty": "2 Years",
+    "featured": false,
+    "dateAdded": "2025-12-18T23:00:52.900Z"
+  },
+  {
+    "id": "22",
+    "name": "AirPods Pro 2nd Generation",
+    "price": 3999000,
+    "originalPrice": 4499000,
+    "discount": 11,
+    "rating": 4.7,
+    "reviewCount": 5678,
+    "sold": 3456,
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=500&fit=crop&sig=21",
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=500&fit=crop&sig=21",
+      "https://images.unsplash.com/photo-1549497538-303791108f95?w=500&h=500&fit=crop&sig=22",
+      "https://images.unsplash.com/photo-1549497538-303791108f95?w=500&h=500&fit=crop&sig=23"
+    ],
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "seller": {
+      "name": "Apple Store Indonesia",
+      "rating": 4.9,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Active noise cancellation, spatial audio, and up to 30 hours of battery life.",
+    "stock": 89,
+    "condition": "New",
+    "weight": 0.2,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-12-20T23:00:52.900Z"
+  },
+  {
+    "id": "23",
+    "name": "Nikon D850 DSLR Camera",
+    "price": 42999000,
+    "originalPrice": 45999000,
+    "discount": 7,
+    "rating": 4.8,
+    "reviewCount": 2345,
+    "sold": 890,
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500&h=500&fit=crop"
+    ],
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "seller": {
+      "name": "Nikon Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Full-frame DSLR with 45.7MP sensor, 4K video, and advanced autofocus system.",
+    "stock": 15,
+    "condition": "New",
+    "weight": 1,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-12-22T23:00:52.900Z"
+  },
+  {
+    "id": "24",
+    "name": "LG 65 inch OLED 4K Smart TV",
+    "price": 24999000,
+    "originalPrice": 27999000,
+    "discount": 11,
+    "rating": 4.7,
+    "reviewCount": 3456,
+    "sold": 1234,
+    "image": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=500&h=500&fit=crop&sig=23",
+    "images": [
+      "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=500&h=500&fit=crop&sig=23",
+      "https://images.unsplash.com/photo-1578922751762-35b845b6e036?w=500&h=500&fit=crop&sig=24",
+      "https://images.unsplash.com/photo-1578922751762-35b845b6e036?w=500&h=500&fit=crop&sig=25"
+    ],
+    "category": "Electronics",
+    "subcategory": "TV & Audio",
+    "seller": {
+      "name": "LG Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "OLED TV with perfect blacks, Dolby Vision IQ, and webOS smart platform.",
+    "stock": 28,
+    "condition": "New",
+    "weight": 25.5,
+    "warranty": "2 Years",
+    "featured": true,
+    "dateAdded": "2025-12-24T23:00:52.900Z"
+  },
+  {
+    "id": "25",
+    "name": "PlayStation 5 Console",
+    "price": 8999000,
+    "originalPrice": 9999000,
+    "discount": 10,
+    "rating": 4.9,
+    "reviewCount": 12345,
+    "sold": 5678,
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500&h=500&fit=crop&sig=24",
+    "images": [
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500&h=500&fit=crop&sig=24",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500&h=500&fit=crop&sig=25",
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop&sig=26"
+    ],
+    "category": "Electronics",
+    "subcategory": "TV & Audio",
+    "seller": {
+      "name": "Sony Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Utara"
+    },
+    "description": "Next-gen gaming console with ray tracing, 4K gaming, and ultra-fast SSD.",
+    "stock": 35,
+    "condition": "New",
+    "weight": 4.5,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-12-26T23:00:52.900Z"
+  },
+  {
+    "id": "26",
+    "name": "Apple Watch Series 9 - 45mm",
+    "price": 7999000,
+    "originalPrice": 8999000,
+    "discount": 11,
+    "rating": 4.6,
+    "reviewCount": 4567,
+    "sold": 2345,
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop&sig=25",
+    "images": [
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop&sig=25",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop&sig=26",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500&h=500&fit=crop&sig=27"
+    ],
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "seller": {
+      "name": "Apple Store Indonesia",
+      "rating": 4.9,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Smartwatch with Always-On Retina display, ECG app, and fitness tracking.",
+    "stock": 56,
+    "condition": "New",
+    "weight": 0.05,
+    "warranty": "1 Year",
+    "featured": false,
+    "dateAdded": "2025-12-28T23:00:52.900Z"
+  },
+  {
+    "id": "27",
+    "name": "Bose QuietComfort 45 Headphones",
+    "price": 4999000,
+    "originalPrice": 5499000,
+    "discount": 9,
+    "rating": 4.7,
+    "reviewCount": 3456,
+    "sold": 1890,
+    "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500&h=500&fit=crop&sig=26",
+    "images": [
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500&h=500&fit=crop&sig=26",
+      "https://images.unsplash.com/photo-1544966506-3d63d8c3e0b5?w=500&h=500&fit=crop&sig=27",
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&h=500&fit=crop&sig=28"
+    ],
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "seller": {
+      "name": "Bose Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Premium noise cancelling headphones with world-class sound quality and comfort.",
+    "stock": 45,
+    "condition": "New",
+    "weight": 0.3,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-12-30T23:00:52.900Z"
+  },
+  {
+    "id": "28",
+    "name": "Nike Dunk Low - Panda",
+    "price": 1599000,
+    "originalPrice": 1899000,
+    "discount": 16,
+    "rating": 4.5,
+    "reviewCount": 5678,
+    "sold": 3456,
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop&sig=27",
+    "images": [
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop&sig=27",
+      "https://images.unsplash.com/photo-1560472355-e5c5b5e5e5e5?w=500&h=500&fit=crop&sig=28",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop&sig=29"
+    ],
+    "category": "Fashion",
+    "subcategory": "Shoes",
+    "seller": {
+      "name": "Nike Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Barat"
+    },
+    "description": "Classic Nike Dunk Low in black and white colorway. Iconic street style.",
+    "stock": 123,
+    "condition": "New",
+    "weight": 0.7,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-12-12T23:00:52.900Z"
+  },
+  {
+    "id": "29",
+    "name": "Converse Chuck 70 High Top",
+    "price": 1299000,
+    "originalPrice": 1499000,
+    "discount": 13,
+    "rating": 4.6,
+    "reviewCount": 7890,
+    "sold": 5234,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop&sig=28",
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop&sig=28",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop&sig=29",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop&sig=30"
+    ],
+    "category": "Fashion",
+    "subcategory": "Shoes",
+    "seller": {
+      "name": "Converse Official Store",
+      "rating": 4.6,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Premium version of the classic Chuck Taylor with upgraded materials and comfort.",
+    "stock": 167,
+    "condition": "New",
+    "weight": 0.6,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-12-14T23:00:52.900Z"
+  },
+  {
+    "id": "30",
+    "name": "H&M Oversized T-Shirt - White",
+    "price": 199000,
+    "originalPrice": 299000,
+    "discount": 33,
+    "rating": 4.3,
+    "reviewCount": 12345,
+    "sold": 8901,
+    "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500&h=500&fit=crop&sig=29",
+    "images": [
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500&h=500&fit=crop&sig=29",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop&sig=30",
+      "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=500&h=500&fit=crop&sig=31"
+    ],
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "seller": {
+      "name": "H&M Official",
+      "rating": 4.5,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Comfortable oversized t-shirt in white. Perfect for casual wear. 100% cotton.",
+    "stock": 456,
+    "condition": "New",
+    "weight": 0.2,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-12-16T23:00:52.900Z"
+  },
+  {
+    "id": "31",
+    "name": "Michael Kors Leather Handbag",
+    "price": 4999000,
+    "originalPrice": 5999000,
+    "discount": 17,
+    "rating": 4.5,
+    "reviewCount": 2345,
+    "sold": 1234,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop&sig=30",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop&sig=30",
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500&h=500&fit=crop&sig=31",
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&h=500&fit=crop&sig=32"
+    ],
+    "category": "Fashion",
+    "subcategory": "Bags",
+    "seller": {
+      "name": "Michael Kors Store",
+      "rating": 4.6,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Elegant leather handbag with gold-tone hardware. Perfect for everyday use.",
+    "stock": 34,
+    "condition": "New",
+    "weight": 0.8,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-12-18T23:00:52.900Z"
+  },
+  {
+    "id": "32",
+    "name": "Casio G-Shock Digital Watch",
+    "price": 1999000,
+    "originalPrice": 2499000,
+    "discount": 20,
+    "rating": 4.6,
+    "reviewCount": 5678,
+    "sold": 3456,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop&sig=31",
+    "images": [
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop&sig=31",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop&sig=32",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop&sig=33"
+    ],
+    "category": "Fashion",
+    "subcategory": "Watches",
+    "seller": {
+      "name": "Casio Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Barat"
+    },
+    "description": "Durable digital watch with shock resistance, water resistance, and multiple functions.",
+    "stock": 78,
+    "condition": "New",
+    "weight": 0.1,
+    "warranty": "2 Years",
+    "featured": false,
+    "dateAdded": "2025-12-20T23:00:52.900Z"
+  },
+  {
+    "id": "33",
+    "name": "Puma Suede Classic Sneakers",
+    "price": 1299000,
+    "originalPrice": 1599000,
+    "discount": 19,
+    "rating": 4.4,
+    "reviewCount": 4567,
+    "sold": 2345,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop&sig=32",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop&sig=32",
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop&sig=33",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=500&fit=crop&sig=34"
+    ],
+    "category": "Fashion",
+    "subcategory": "Shoes",
+    "seller": {
+      "name": "Puma Official Store",
+      "rating": 4.6,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Iconic suede sneakers with classic design. Timeless style and comfort.",
+    "stock": 145,
+    "condition": "New",
+    "weight": 0.7,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-12-22T23:00:52.900Z"
+  },
+  {
+    "id": "34",
+    "name": "Tommy Hilfiger Polo Shirt",
+    "price": 799000,
+    "originalPrice": 999000,
+    "discount": 20,
+    "rating": 4.5,
+    "reviewCount": 3456,
+    "sold": 1890,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop&sig=33",
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop&sig=33",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop&sig=34",
+      "https://images.unsplash.com/photo-1594938291221-94f313431589?w=500&h=500&fit=crop&sig=35"
+    ],
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "seller": {
+      "name": "Tommy Hilfiger Store",
+      "rating": 4.6,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Classic polo shirt with iconic logo. Premium cotton blend for comfort.",
+    "stock": 234,
+    "condition": "New",
+    "weight": 0.3,
+    "warranty": "Official Warranty",
+    "featured": false,
+    "dateAdded": "2025-12-24T23:00:52.900Z"
+  },
+  {
+    "id": "35",
+    "name": "Ray-Ban Aviator Sunglasses",
+    "price": 2499000,
+    "originalPrice": 2999000,
+    "discount": 17,
+    "rating": 4.7,
+    "reviewCount": 6789,
+    "sold": 4567,
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop&sig=34",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop&sig=34",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop&sig=35",
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop&sig=36"
+    ],
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "seller": {
+      "name": "Ray-Ban Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Iconic aviator sunglasses with UV protection and polarized lenses.",
+    "stock": 89,
+    "condition": "New",
+    "weight": 0.05,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-12-26T23:00:52.900Z"
+  },
+  {
+    "id": "36",
+    "name": "Herman Miller Aeron Office Chair",
+    "price": 12999000,
+    "originalPrice": 14999000,
+    "discount": 13,
+    "rating": 4.8,
+    "reviewCount": 2345,
+    "sold": 890,
+    "image": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&h=500&fit=crop&sig=35",
+    "images": [
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&h=500&fit=crop&sig=35",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&h=500&fit=crop&sig=36",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop&sig=37"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "seller": {
+      "name": "Herman Miller Store",
+      "rating": 4.7,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Ergonomic office chair with adjustable lumbar support and breathable mesh.",
+    "stock": 18,
+    "condition": "New",
+    "weight": 18,
+    "warranty": "12 Years",
+    "featured": true,
+    "dateAdded": "2025-12-28T23:00:52.900Z"
+  },
+  {
+    "id": "37",
+    "name": "Ninja Foodi Air Fryer",
+    "price": 3999000,
+    "originalPrice": 4999000,
+    "discount": 20,
+    "rating": 4.6,
+    "reviewCount": 4567,
+    "sold": 2345,
+    "image": "https://images.unsplash.com/photo-1549497538-303791108f95?w=500&h=500&fit=crop&sig=36",
+    "images": [
+      "https://images.unsplash.com/photo-1549497538-303791108f95?w=500&h=500&fit=crop&sig=36",
+      "https://images.unsplash.com/photo-1549497538-303791108f95?w=500&h=500&fit=crop&sig=37",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&h=500&fit=crop&sig=38"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Kitchen",
+    "seller": {
+      "name": "Ninja Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Multi-function air fryer with 8-in-1 cooking functions. Perfect for healthy cooking.",
+    "stock": 56,
+    "condition": "New",
+    "weight": 8.5,
+    "warranty": "1 Year",
+    "featured": false,
+    "dateAdded": "2025-12-30T23:00:52.900Z"
+  },
+  {
+    "id": "38",
+    "name": "West Elm Dining Table - 6 Seater",
+    "price": 8999000,
+    "originalPrice": 10999000,
+    "discount": 18,
+    "rating": 4.5,
+    "reviewCount": 1234,
+    "sold": 678,
+    "image": "https://images.unsplash.com/photo-1549497538-303791108f95?w=500&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1549497538-303791108f95?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&h=500&fit=crop"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "seller": {
+      "name": "West Elm Store",
+      "rating": 4.5,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Modern dining table with solid wood top. Seats 6 comfortably. Perfect for family gatherings.",
+    "stock": 12,
+    "condition": "New",
+    "weight": 45,
+    "warranty": "5 Years",
+    "featured": false,
+    "dateAdded": "2026-01-01T23:00:52.900Z"
+  },
+  {
+    "id": "39",
+    "name": "Philips Air Fryer XXL",
+    "price": 3499000,
+    "originalPrice": 4299000,
+    "discount": 19,
+    "rating": 4.5,
+    "reviewCount": 3456,
+    "sold": 1890,
+    "image": "https://images.unsplash.com/photo-1567423668062-96576f3fa80a?w=500&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1567423668062-96576f3fa80a?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&h=500&fit=crop"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Kitchen",
+    "seller": {
+      "name": "Philips Official Store",
+      "rating": 4.6,
+      "location": "Jakarta Utara"
+    },
+    "description": "Extra large air fryer with Rapid Air technology. Cooks food with 90% less oil.",
+    "stock": 42,
+    "condition": "New",
+    "weight": 7.2,
+    "warranty": "2 Years",
+    "featured": false,
+    "dateAdded": "2025-12-10T23:00:52.900Z"
+  },
+  {
+    "id": "40",
+    "name": "IKEA HEMNES Bookcase",
+    "price": 2999000,
+    "originalPrice": 3499000,
+    "discount": 14,
+    "rating": 4.4,
+    "reviewCount": 2345,
+    "sold": 1234,
+    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500&h=500&fit=crop&sig=39",
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500&h=500&fit=crop&sig=39",
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop&sig=40",
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&h=500&fit=crop&sig=41"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "seller": {
+      "name": "IKEA Indonesia",
+      "rating": 4.5,
+      "location": "Jakarta Barat"
+    },
+    "description": "Classic bookcase with adjustable shelves. Perfect for organizing books and decor.",
+    "stock": 38,
+    "condition": "New",
+    "weight": 28,
+    "warranty": "10 Years",
+    "featured": false,
+    "dateAdded": "2025-12-12T23:00:52.900Z"
+  },
+  {
+    "id": "41",
+    "name": "Instant Pot Duo 7-in-1",
+    "price": 1999000,
+    "originalPrice": 2499000,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 5678,
+    "sold": 3456,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop&sig=40",
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop&sig=40",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500&h=500&fit=crop&sig=41",
+      "https://images.unsplash.com/photo-1561154464-82e9adf32750?w=500&h=500&fit=crop&sig=42"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Kitchen",
+    "seller": {
+      "name": "Instant Pot Official",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "7-in-1 multi-use pressure cooker. Pressure cook, slow cook, rice cooker, and more.",
+    "stock": 67,
+    "condition": "New",
+    "weight": 5.8,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-12-14T23:00:52.900Z"
+  },
+  {
+    "id": "42",
+    "name": "Roomba i7+ Robot Vacuum",
+    "price": 12999000,
+    "originalPrice": 14999000,
+    "discount": 13,
+    "rating": 4.6,
+    "reviewCount": 3456,
+    "sold": 1890,
+    "image": "https://images.unsplash.com/photo-1578922751762-35b845b6e036?w=500&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1578922751762-35b845b6e036?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=500&h=500&fit=crop"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Appliances",
+    "seller": {
+      "name": "iRobot Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Smart robot vacuum with automatic dirt disposal. Connects to Wi-Fi for app control.",
+    "stock": 24,
+    "condition": "New",
+    "weight": 3.5,
+    "warranty": "1 Year",
+    "featured": false,
+    "dateAdded": "2025-12-16T23:00:52.900Z"
+  },
+  {
+    "id": "43",
+    "name": "Nespresso Vertuo Coffee Machine",
+    "price": 5999000,
+    "originalPrice": 6999000,
+    "discount": 14,
+    "rating": 4.7,
+    "reviewCount": 4567,
+    "sold": 2345,
+    "image": "https://images.unsplash.com/photo-1544966506-3d63d8c3e0b5?w=500&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1544966506-3d63d8c3e0b5?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1561154464-82e9adf32750?w=500&h=500&fit=crop"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Kitchen",
+    "seller": {
+      "name": "Nespresso Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Pusat"
+    },
+    "description": "Premium coffee machine with one-touch brewing. Makes espresso and coffee.",
+    "stock": 45,
+    "condition": "New",
+    "weight": 6.2,
+    "warranty": "2 Years",
+    "featured": true,
+    "dateAdded": "2025-12-18T23:00:52.900Z"
+  },
+  {
+    "id": "44",
+    "name": "IKEA POÄNG Armchair",
+    "price": 1999000,
+    "originalPrice": 2499000,
+    "discount": 20,
+    "rating": 4.5,
+    "reviewCount": 5678,
+    "sold": 3456,
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop&sig=43",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop&sig=43",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop&sig=44",
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500&h=500&fit=crop&sig=45"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "seller": {
+      "name": "IKEA Indonesia",
+      "rating": 4.5,
+      "location": "Jakarta Barat"
+    },
+    "description": "Comfortable armchair with curved backrest. Perfect for reading or relaxing.",
+    "stock": 78,
+    "condition": "New",
+    "weight": 12,
+    "warranty": "10 Years",
+    "featured": false,
+    "dateAdded": "2025-12-20T23:00:52.900Z"
+  },
+  {
+    "id": "45",
+    "name": "Breville Barista Express Espresso Machine",
+    "price": 14999000,
+    "originalPrice": 16999000,
+    "discount": 12,
+    "rating": 4.8,
+    "reviewCount": 2345,
+    "sold": 890,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop&sig=44",
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop&sig=44",
+      "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=500&h=500&fit=crop&sig=45",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop&sig=46"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Kitchen",
+    "seller": {
+      "name": "Breville Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Professional espresso machine with built-in grinder. Create cafe-quality coffee at home.",
+    "stock": 15,
+    "condition": "New",
+    "weight": 11.5,
+    "warranty": "1 Year",
+    "featured": true,
+    "dateAdded": "2025-12-22T23:00:52.900Z"
+  },
+  {
+    "id": "46",
+    "name": "Samsung Bespoke Refrigerator",
+    "price": 24999000,
+    "originalPrice": 27999000,
+    "discount": 11,
+    "rating": 4.6,
+    "reviewCount": 1890,
+    "sold": 567,
+    "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500&h=500&fit=crop&sig=45",
+    "images": [
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500&h=500&fit=crop&sig=45",
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&h=500&fit=crop&sig=46",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=500&fit=crop&sig=47"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Appliances",
+    "seller": {
+      "name": "Samsung Official Store",
+      "rating": 4.8,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Customizable refrigerator with interchangeable panels. Smart features and energy efficient.",
+    "stock": 8,
+    "condition": "New",
+    "weight": 85,
+    "warranty": "2 Years",
+    "featured": false,
+    "dateAdded": "2025-12-24T23:00:52.900Z"
+  },
+  {
+    "id": "47",
+    "name": "IKEA KALLAX Shelf Unit",
+    "price": 1499000,
+    "originalPrice": 1999000,
+    "discount": 25,
+    "rating": 4.4,
+    "reviewCount": 4567,
+    "sold": 2345,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop&sig=46",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop&sig=46",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop&sig=47",
+      "https://images.unsplash.com/photo-1582418702059-97ebaf8e8b2f?w=500&h=500&fit=crop&sig=48"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "seller": {
+      "name": "IKEA Indonesia",
+      "rating": 4.5,
+      "location": "Jakarta Barat"
+    },
+    "description": "Versatile shelf unit perfect for storage and display. Easy to assemble.",
+    "stock": 112,
+    "condition": "New",
+    "weight": 15,
+    "warranty": "10 Years",
+    "featured": false,
+    "dateAdded": "2025-12-26T23:00:52.900Z"
+  },
+  {
+    "id": "48",
+    "name": "Vitamix Professional Blender",
+    "price": 8999000,
+    "originalPrice": 9999000,
+    "discount": 10,
+    "rating": 4.8,
+    "reviewCount": 3456,
+    "sold": 1890,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop&sig=47",
+    "images": [
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop&sig=47",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=500&fit=crop&sig=48",
+      "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=500&h=500&fit=crop&sig=49"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Kitchen",
+    "seller": {
+      "name": "Vitamix Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Professional-grade blender with powerful motor. Perfect for smoothies and soups.",
+    "stock": 32,
+    "condition": "New",
+    "weight": 5.5,
+    "warranty": "7 Years",
+    "featured": true,
+    "dateAdded": "2025-12-28T23:00:52.900Z"
+  },
+  {
+    "id": "49",
+    "name": "IKEA LACK Side Table",
+    "price": 299000,
+    "originalPrice": 399000,
+    "discount": 25,
+    "rating": 4.3,
+    "reviewCount": 12345,
+    "sold": 8901,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop&sig=48",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop&sig=48",
+      "https://images.unsplash.com/photo-1594938291221-94f313431589?w=500&h=500&fit=crop&sig=49",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500&h=500&fit=crop&sig=50"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "seller": {
+      "name": "IKEA Indonesia",
+      "rating": 4.5,
+      "location": "Jakarta Barat"
+    },
+    "description": "Simple and affordable side table. Perfect for small spaces. Multiple color options.",
+    "stock": 234,
+    "condition": "New",
+    "weight": 5,
+    "warranty": "10 Years",
+    "featured": false,
+    "dateAdded": "2025-12-30T23:00:52.900Z"
+  },
+  {
+    "id": "50",
+    "name": "LG Washing Machine - Front Load",
+    "price": 8999000,
+    "originalPrice": 10999000,
+    "discount": 18,
+    "rating": 4.6,
+    "reviewCount": 3456,
+    "sold": 1890,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop&sig=49",
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop&sig=49",
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop&sig=50",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop&sig=51"
+    ],
+    "category": "Home & Living",
+    "subcategory": "Appliances",
+    "seller": {
+      "name": "LG Official Store",
+      "rating": 4.7,
+      "location": "Jakarta Selatan"
+    },
+    "description": "Energy-efficient front-load washing machine with multiple wash programs and smart features.",
+    "stock": 28,
+    "condition": "New",
+    "weight": 65,
+    "warranty": "2 Years",
+    "featured": false,
+    "dateAdded": "2026-01-01T23:00:52.900Z"
+  }
+]

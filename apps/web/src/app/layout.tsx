@@ -1,9 +1,14 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import CartProviderWrapper from '@/components/CartProviderWrapper'
 
 export const metadata: Metadata = {
   title: 'Imperra Marketplace',
   description: 'Modern marketplace application',
+  icons: {
+    icon: '/icon.svg',
+    apple: '/icon.svg',
+  },
 }
 
 export default function RootLayout({
@@ -13,7 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <CartProviderWrapper>{children}</CartProviderWrapper>
+      </body>
     </html>
   )
 }
