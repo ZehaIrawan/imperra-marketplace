@@ -1,0 +1,24 @@
+{
+  "name": "imperra-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo for Imperra Marketplace with Next.js frontend and NestJS backend",
+  "scripts": {
+    "dev": "pnpm --filter web dev & pnpm --filter api start:dev",
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api start:dev",
+    "build": "pnpm --filter web build && pnpm --filter api build",
+    "build:web": "pnpm --filter web build",
+    "build:api": "pnpm --filter api build",
+    "lint": "pnpm --filter web lint && pnpm --filter api lint",
+    "clean": "pnpm --filter web clean && pnpm --filter api clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=24.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
+
