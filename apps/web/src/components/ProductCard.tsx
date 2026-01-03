@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
 
 interface Product {
   id: string
@@ -21,13 +22,65 @@ interface ProductCardProps {
   product: Product
 }
 
+const FAVORITES_KEY = 'imperra-favorites'
+
+// Utility functions for localStorage
+const getFavoritesFromStorage = (): string[] => {
+  if (typeof window === 'undefined') return []
+  try {
+    const stored = localStorage.getItem(FAVORITES_KEY)
+    return stored ? JSON.parse(stored) : []
+  } catch {
+    return []
+  }
+}
+
+const saveFavoritesToStorage = (favorites: string[]) => {
+  if (typeof window === 'undefined') return
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites))
+  } catch (error) {
+    console.error('Failed to save favorites to localStorage:', error)
+  }
+}
+
+const toggleFavoriteInStorage = (productId: string): boolean => {
+  const favorites = getFavoritesFromStorage()
+  const index = favorites.indexOf(productId)
+
+  if (index > -1) {
+    favorites.splice(index, 1)
+    saveFavoritesToStorage(favorites)
+    return false
+  } else {
+    favorites.push(productId)
+    saveFavoritesToStorage(favorites)
+    return true
+  }
+}
+
 export default function ProductCard({ product }: ProductCardProps) {
+  const [isFavorited, setIsFavorited] = useState(false)
+
+  // Load favorite status from localStorage on mount
+  useEffect(() => {
+    const favorites = getFavoritesFromStorage()
+    setIsFavorited(favorites.includes(product.id))
+  }, [product.id])
+
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
       currency: 'IDR',
       minimumFractionDigits: 0,
     }).format(price)
+  }
+
+  const handleFavoriteClick = (e: React.MouseEvent) => {
+    e.preventDefault()
+    e.stopPropagation()
+    const newFavoriteStatus = toggleFavoriteInStorage(product.id)
+    setIsFavorited(newFavoriteStatus)
   }
 
   return (
@@ -45,6 +98,26 @@ export default function ProductCard({ product }: ProductCardProps) {
               {product.discount}%
             </div>
           )}
+          {/* Favorite Button - BUG DEMO: This state will be preserved incorrectly when using index as key */}
+          <button
+            onClick={handleFavoriteClick}
+            className="absolute top-2 right-2 p-2 bg-white rounded-full shadow-md hover:bg-gray-50 transition-colors"
+            aria-label={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
+          >
+            <svg
+              className={`w-5 h-5 transition-colors ${
+                isFavorited ? 'text-red-500 fill-current' : 'text-gray-400'
+              }`}
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
         </div>
 
         {/* Product Info */}

@@ -10,11 +10,31 @@ import categoriesData from '@/data/categories.json'
 import bannersData from '@/data/banners.json'
 import { useState, useEffect } from 'react'
 
+type SortOption = 'default' | 'price-low' | 'price-high' | 'rating' | 'sold'
+
 export default function Home() {
   const [displayCount, setDisplayCount] = useState(17)
   const [isLoading, setIsLoading] = useState(false)
-  const productsToShow = productsData.slice(0, displayCount)
-  const hasMore = displayCount < productsData.length
+  const [sortBy, setSortBy] = useState<SortOption>('default')
+
+  // Sort products based on selected option
+  const sortedProducts = [...productsData].sort((a, b) => {
+    switch (sortBy) {
+      case 'price-low':
+        return a.price - b.price
+      case 'price-high':
+        return b.price - a.price
+      case 'rating':
+        return b.rating - a.rating
+      case 'sold':
+        return b.sold - a.sold
+      default:
+        return 0
+    }
+  })
+
+  const productsToShow = sortedProducts.slice(0, displayCount)
+  const hasMore = displayCount < sortedProducts.length
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,7 +48,7 @@ export default function Home() {
         setIsLoading(true)
         // Simulate loading delay for better UX
         setTimeout(() => {
-          setDisplayCount((prev) => Math.min(prev + 17, productsData.length))
+          setDisplayCount((prev) => Math.min(prev + 17, sortedProducts.length))
           setIsLoading(false)
         }, 500)
       }
@@ -36,7 +56,7 @@ export default function Home() {
 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [displayCount, hasMore, isLoading])
+  }, [displayCount, hasMore, isLoading, sortedProducts.length])
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -54,12 +74,34 @@ export default function Home() {
             <h2 className="text-2xl font-bold text-gray-900">
               All Products
             </h2>
-            <span className="text-sm text-gray-600">
-              Showing {displayCount} of {productsData.length}
-            </span>
+            <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
+                <label htmlFor="sort" className="text-sm text-gray-600">
+                  Sort by:
+                </label>
+                <select
+                  id="sort"
+                  value={sortBy}
+                  onChange={(e) => {
+                    setSortBy(e.target.value as SortOption)
+                    setDisplayCount(17) // Reset to initial count when sorting
+                  }}
+                  className="px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"
+                >
+                  <option value="default">Default</option>
+                  <option value="price-low">Price: Low to High</option>
+                  <option value="price-high">Price: High to Low</option>
+                  <option value="rating">Highest Rated</option>
+                  <option value="sold">Most Sold</option>
+                </select>
+              </div>
+              <span className="text-sm text-gray-600">
+                Showing {displayCount} of {productsData.length}
+              </span>
+            </div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {productsToShow.map((product) => (
+            {productsToShow.map((product, index) => (
               <ProductCard key={product.id} product={product} />
             ))}
             {/* Skeleton Loaders */}
