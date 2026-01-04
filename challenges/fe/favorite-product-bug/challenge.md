@@ -1,0 +1,1 @@
+git apply challenges/fe/favorite-product-bug/broken.patch

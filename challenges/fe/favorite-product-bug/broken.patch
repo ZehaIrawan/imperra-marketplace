@@ -1,0 +1,13 @@
+diff --git a/apps/web/src/app/page.tsx b/apps/web/src/app/page.tsx
+index 8e92261..16fd6a7 100644
+--- a/apps/web/src/app/page.tsx
++++ b/apps/web/src/app/page.tsx
+@@ -102,7 +102,7 @@ export default function Home() {
+           </div>
+           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+             {productsToShow.map((product, index) => (
+-              <ProductCard key={product.id} product={product} />
++              <ProductCard key={index} product={product} />
+             ))}
+             {/* Skeleton Loaders */}
+             {isLoading &&
