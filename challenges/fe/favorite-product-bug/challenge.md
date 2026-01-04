@@ -3,11 +3,12 @@ Challenge description
 1. Favorited product is not working properly on sort
 
 Demo
-<video width="100%" controls>
-  <source src="./demo.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/22699238-78f2-47e5-ad24-ef4a35f7c8bb
 
 ```bash
 git apply challenges/fe/favorite-product-bug/broken.patch
 ```
+
+
+
