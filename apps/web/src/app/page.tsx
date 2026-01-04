@@ -102,7 +102,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {productsToShow.map((product, index) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={index} product={product} />
             ))}
             {/* Skeleton Loaders */}
             {isLoading &&
