@@ -6,8 +6,10 @@ Demo
 
 https://github.com/user-attachments/assets/22699238-78f2-47e5-ad24-ef4a35f7c8bb
 
+
+From root
 ```bash
-git apply challenges/fe/favorite-product-bug/broken.patch
+base64 -d -i challenges/fe/favorite-product-bug/broken.patch.b64 | git apply
 ```
 
 
