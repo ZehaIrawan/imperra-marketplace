@@ -1,6 +1,6 @@
 ## Challenge description
 
-Favorite product is not working properly on sort. For example if I favorite 1st product and then sort, it will still favorite the first product. Correct behavior is a product will stay favorited even after sort.
+Favorite product is not working properly on sort. For example if I favorite Macbook pro product and then sort, it will still favorite the first product. Correct behavior is a product will stay favorited even after sort.
 
 ## Introduce challenge to working directory
 From root
