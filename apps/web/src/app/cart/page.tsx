@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import Header from '@/components/Header'
+import CartSkeleton from '@/components/CartSkeleton'
 
 interface Product {
   id: number
@@ -83,18 +84,15 @@ export default function CartPage() {
   const shipping = 10
   const total = subtotal + shipping
 
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-xl font-semibold text-gray-600">Loading cart...</div>
-      </div>
-    )
-  }
+
 
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      <main className="container mx-auto px-4 py-6">
+      {loading ? (
+        <CartSkeleton />
+      ) : (
+        <main className="container mx-auto px-4 py-6">
         <h1 className="text-3xl font-bold text-gray-900 mb-6">Shopping Cart</h1>
 
         {cartItems.length === 0 ? (
@@ -228,7 +226,8 @@ export default function CartPage() {
             </div>
           </div>
         )}
-      </main>
+        </main>
+      )}
     </div>
   )
 }
