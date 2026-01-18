@@ -1,31 +1,95 @@
 'use client'
 
+import React, { useEffect, useState } from 'react'
 import Header from '@/components/Header'
-import productsData from '@/data/products.json'
-import { useCart } from '@/contexts/CartContext'
+
+interface Product {
+  id: number
+  title: string
+  price: number
+  description: string
+  category: string
+  image: string
+  rating: {
+    rate: number
+    count: number
+  }
+}
+
+interface CartItem {
+  productId: number
+  quantity: number
+  product?: Product
+}
 
 export default function CartPage() {
-  const { cartItems, updateQuantity, removeFromCart } = useCart()
+  const [cartItems, setCartItems] = useState<CartItem[]>([])
+  const [loading, setLoading] = useState(true)
 
-  const getProduct = (productId: string) => {
-    return productsData.find((p) => p.id === productId)
+  useEffect(() => {
+    const fetchCart = async () => {
+      try {
+        const cartRes = await fetch('https://fakestoreapi.com/carts/1')
+        const cartData = await cartRes.json()
+
+        const itemsWithProducts = await Promise.all(
+          cartData.products.map(async (item: { productId: number; quantity: number }) => {
+            const productRes = await fetch(`https://fakestoreapi.com/products/${item.productId}`)
+            const productData = await productRes.json()
+            return {
+              productId: item.productId,
+              quantity: item.quantity,
+              product: productData,
+            }
+          })
+        )
+
+        setCartItems(itemsWithProducts)
+      } catch (error) {
+        console.error('Failed to fetch cart:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchCart()
+  }, [])
+
+  const updateQuantity = (productId: number, newQuantity: number) => {
+    if (newQuantity < 1) return
+    setCartItems((prev) =>
+      prev.map((item) =>
+        item.productId === productId ? { ...item, quantity: newQuantity } : item
+      )
+    )
+  }
+
+  const removeFromCart = (productId: number) => {
+    setCartItems((prev) => prev.filter((item) => item.productId !== productId))
   }
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
-      currency: 'IDR',
-      minimumFractionDigits: 0,
+      currency: 'USD',
+      minimumFractionDigits: 2,
     }).format(price)
   }
 
   const subtotal = cartItems.reduce((sum, item) => {
-    const product = getProduct(item.productId)
-    return sum + (product ? product.price * item.quantity : 0)
+    return sum + (item.product ? item.product.price * item.quantity : 0)
   }, 0)
 
-  const shipping = 15000
+  const shipping = 10
   const total = subtotal + shipping
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-xl font-semibold text-gray-600">Loading cart...</div>
+      </div>
+    )
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -66,7 +130,7 @@ export default function CartPage() {
             {/* Cart Items */}
             <div className="lg:col-span-2 space-y-4">
               {cartItems.map((item) => {
-                const product = getProduct(item.productId)
+                const product = item.product
                 if (!product) return null
 
                 return (
@@ -77,16 +141,16 @@ export default function CartPage() {
                     <div className="relative w-full md:w-32 h-32 bg-gray-100 rounded-lg overflow-hidden flex-shrink-0">
                       <img
                         src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover"
+                        alt={product.title}
+                        className="w-full h-full object-contain p-2"
                       />
                     </div>
                     <div className="flex-1">
                       <h3 className="font-semibold text-gray-900 mb-2">
-                        {product.name}
+                        {product.title}
                       </h3>
-                      <p className="text-sm text-gray-600 mb-2">
-                        {product.seller.name}
+                      <p className="text-sm text-gray-600 mb-2 capitalize">
+                        {product.category}
                       </p>
                       <div className="text-lg font-bold text-brand-600 mb-4">
                         {formatPrice(product.price)}
