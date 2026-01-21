@@ -4,7 +4,7 @@
   "private": true,
   "description": "Monorepo for Imperra Marketplace with Next.js frontend and NestJS backend",
   "scripts": {
-    "dev": "pnpm --filter web dev & pnpm --filter api start:dev",
+    "dev": "pnpm --filter web dev & pnpm --filter api start:dev -p 3009",
     "dev:web": "pnpm --filter web dev",
     "dev:api": "pnpm --filter api start:dev",
     "build": "pnpm --filter web build && pnpm --filter api build",
